@@ -14,6 +14,9 @@
 		974C8CB22A8400B000916F10 /* MajesticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974C8CB12A8400B000916F10 /* MajesticTests.swift */; };
 		974C8CBC2A8400B000916F10 /* MajesticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974C8CBB2A8400B000916F10 /* MajesticUITests.swift */; };
 		974C8CBE2A8400B000916F10 /* MajesticUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974C8CBD2A8400B000916F10 /* MajesticUITestsLaunchTests.swift */; };
+		974C8CCB2A8408CF00916F10 /* threeDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974C8CCA2A8408CF00916F10 /* threeDView.swift */; };
+		974C8CCE2A8408E200916F10 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 974C8CCD2A8408E200916F10 /* SceneKit.framework */; };
+		974C8D092A840BC900916F10 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 974C8D082A840BC900916F10 /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		974C8CB72A8400B000916F10 /* MajesticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MajesticUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		974C8CBB2A8400B000916F10 /* MajesticUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajesticUITests.swift; sourceTree = "<group>"; };
 		974C8CBD2A8400B000916F10 /* MajesticUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajesticUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		974C8CCA2A8408CF00916F10 /* threeDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threeDView.swift; sourceTree = "<group>"; };
+		974C8CCD2A8408E200916F10 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		974C8D082A840BC900916F10 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				974C8CCE2A8408E200916F10 /* SceneKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +86,7 @@
 				974C8CB02A8400B000916F10 /* MajesticTests */,
 				974C8CBA2A8400B000916F10 /* MajesticUITests */,
 				974C8C9D2A8400AE00916F10 /* Products */,
+				974C8CCC2A8408E200916F10 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,7 +105,9 @@
 			children = (
 				974C8C9F2A8400AE00916F10 /* AppDelegate.swift */,
 				974C8CA12A8400AE00916F10 /* ViewController.swift */,
+				974C8CCA2A8408CF00916F10 /* threeDView.swift */,
 				974C8CA32A8400B000916F10 /* Assets.xcassets */,
+				974C8D082A840BC900916F10 /* art.scnassets */,
 				974C8CA52A8400B000916F10 /* Main.storyboard */,
 				974C8CA82A8400B000916F10 /* Majestic.entitlements */,
 			);
@@ -119,6 +129,14 @@
 				974C8CBD2A8400B000916F10 /* MajesticUITestsLaunchTests.swift */,
 			);
 			path = MajesticUITests;
+			sourceTree = "<group>";
+		};
+		974C8CCC2A8408E200916F10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				974C8CCD2A8408E200916F10 /* SceneKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				974C8CA42A8400B000916F10 /* Assets.xcassets in Resources */,
+				974C8D092A840BC900916F10 /* art.scnassets in Resources */,
 				974C8CA72A8400B000916F10 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				974C8CCB2A8408CF00916F10 /* threeDView.swift in Sources */,
 				974C8CA22A8400AE00916F10 /* ViewController.swift in Sources */,
 				974C8CA02A8400AE00916F10 /* AppDelegate.swift in Sources */,
 			);
@@ -432,7 +452,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gamerocketstudio.Majestic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -459,7 +479,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gamerocketstudio.Majestic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
