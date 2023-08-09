@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		974C8CA02A8400AE00916F10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974C8C9F2A8400AE00916F10 /* AppDelegate.swift */; };
+		974C8CA22A8400AE00916F10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974C8CA12A8400AE00916F10 /* ViewController.swift */; };
+		974C8CA42A8400B000916F10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 974C8CA32A8400B000916F10 /* Assets.xcassets */; };
+		974C8CA72A8400B000916F10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 974C8CA52A8400B000916F10 /* Main.storyboard */; };
+		974C8CB22A8400B000916F10 /* MajesticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974C8CB12A8400B000916F10 /* MajesticTests.swift */; };
+		974C8CBC2A8400B000916F10 /* MajesticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974C8CBB2A8400B000916F10 /* MajesticUITests.swift */; };
+		974C8CBE2A8400B000916F10 /* MajesticUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974C8CBD2A8400B000916F10 /* MajesticUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		974C8CAE2A8400B000916F10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 974C8C942A8400AE00916F10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 974C8C9B2A8400AE00916F10;
+			remoteInfo = Majestic;
+		};
+		974C8CB82A8400B000916F10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 974C8C942A8400AE00916F10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 974C8C9B2A8400AE00916F10;
+			remoteInfo = Majestic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		974C8C9C2A8400AE00916F10 /* Majestic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Majestic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		974C8C9F2A8400AE00916F10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		974C8CA12A8400AE00916F10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		974C8CA32A8400B000916F10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		974C8CA62A8400B000916F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		974C8CA82A8400B000916F10 /* Majestic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Majestic.entitlements; sourceTree = "<group>"; };
+		974C8CAD2A8400B000916F10 /* MajesticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MajesticTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		974C8CB12A8400B000916F10 /* MajesticTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajesticTests.swift; sourceTree = "<group>"; };
+		974C8CB72A8400B000916F10 /* MajesticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MajesticUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		974C8CBB2A8400B000916F10 /* MajesticUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajesticUITests.swift; sourceTree = "<group>"; };
+		974C8CBD2A8400B000916F10 /* MajesticUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajesticUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		974C8C992A8400AE00916F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974C8CAA2A8400B000916F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974C8CB42A8400B000916F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		974C8C932A8400AE00916F10 = {
+			isa = PBXGroup;
+			children = (
+				974C8C9E2A8400AE00916F10 /* Majestic */,
+				974C8CB02A8400B000916F10 /* MajesticTests */,
+				974C8CBA2A8400B000916F10 /* MajesticUITests */,
+				974C8C9D2A8400AE00916F10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		974C8C9D2A8400AE00916F10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				974C8C9C2A8400AE00916F10 /* Majestic.app */,
+				974C8CAD2A8400B000916F10 /* MajesticTests.xctest */,
+				974C8CB72A8400B000916F10 /* MajesticUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		974C8C9E2A8400AE00916F10 /* Majestic */ = {
+			isa = PBXGroup;
+			children = (
+				974C8C9F2A8400AE00916F10 /* AppDelegate.swift */,
+				974C8CA12A8400AE00916F10 /* ViewController.swift */,
+				974C8CA32A8400B000916F10 /* Assets.xcassets */,
+				974C8CA52A8400B000916F10 /* Main.storyboard */,
+				974C8CA82A8400B000916F10 /* Majestic.entitlements */,
+			);
+			path = Majestic;
+			sourceTree = "<group>";
+		};
+		974C8CB02A8400B000916F10 /* MajesticTests */ = {
+			isa = PBXGroup;
+			children = (
+				974C8CB12A8400B000916F10 /* MajesticTests.swift */,
+			);
+			path = MajesticTests;
+			sourceTree = "<group>";
+		};
+		974C8CBA2A8400B000916F10 /* MajesticUITests */ = {
+			isa = PBXGroup;
+			children = (
+				974C8CBB2A8400B000916F10 /* MajesticUITests.swift */,
+				974C8CBD2A8400B000916F10 /* MajesticUITestsLaunchTests.swift */,
+			);
+			path = MajesticUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		974C8C9B2A8400AE00916F10 /* Majestic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 974C8CC12A8400B000916F10 /* Build configuration list for PBXNativeTarget "Majestic" */;
+			buildPhases = (
+				974C8C982A8400AE00916F10 /* Sources */,
+				974C8C992A8400AE00916F10 /* Frameworks */,
+				974C8C9A2A8400AE00916F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Majestic;
+			productName = Majestic;
+			productReference = 974C8C9C2A8400AE00916F10 /* Majestic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		974C8CAC2A8400B000916F10 /* MajesticTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 974C8CC42A8400B000916F10 /* Build configuration list for PBXNativeTarget "MajesticTests" */;
+			buildPhases = (
+				974C8CA92A8400B000916F10 /* Sources */,
+				974C8CAA2A8400B000916F10 /* Frameworks */,
+				974C8CAB2A8400B000916F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				974C8CAF2A8400B000916F10 /* PBXTargetDependency */,
+			);
+			name = MajesticTests;
+			productName = MajesticTests;
+			productReference = 974C8CAD2A8400B000916F10 /* MajesticTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		974C8CB62A8400B000916F10 /* MajesticUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 974C8CC72A8400B000916F10 /* Build configuration list for PBXNativeTarget "MajesticUITests" */;
+			buildPhases = (
+				974C8CB32A8400B000916F10 /* Sources */,
+				974C8CB42A8400B000916F10 /* Frameworks */,
+				974C8CB52A8400B000916F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				974C8CB92A8400B000916F10 /* PBXTargetDependency */,
+			);
+			name = MajesticUITests;
+			productName = MajesticUITests;
+			productReference = 974C8CB72A8400B000916F10 /* MajesticUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		974C8C942A8400AE00916F10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					974C8C9B2A8400AE00916F10 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					974C8CAC2A8400B000916F10 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 974C8C9B2A8400AE00916F10;
+					};
+					974C8CB62A8400B000916F10 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 974C8C9B2A8400AE00916F10;
+					};
+				};
+			};
+			buildConfigurationList = 974C8C972A8400AE00916F10 /* Build configuration list for PBXProject "Majestic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 974C8C932A8400AE00916F10;
+			productRefGroup = 974C8C9D2A8400AE00916F10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				974C8C9B2A8400AE00916F10 /* Majestic */,
+				974C8CAC2A8400B000916F10 /* MajesticTests */,
+				974C8CB62A8400B000916F10 /* MajesticUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		974C8C9A2A8400AE00916F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974C8CA42A8400B000916F10 /* Assets.xcassets in Resources */,
+				974C8CA72A8400B000916F10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974C8CAB2A8400B000916F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974C8CB52A8400B000916F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		974C8C982A8400AE00916F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974C8CA22A8400AE00916F10 /* ViewController.swift in Sources */,
+				974C8CA02A8400AE00916F10 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974C8CA92A8400B000916F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974C8CB22A8400B000916F10 /* MajesticTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974C8CB32A8400B000916F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974C8CBE2A8400B000916F10 /* MajesticUITestsLaunchTests.swift in Sources */,
+				974C8CBC2A8400B000916F10 /* MajesticUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		974C8CAF2A8400B000916F10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 974C8C9B2A8400AE00916F10 /* Majestic */;
+			targetProxy = 974C8CAE2A8400B000916F10 /* PBXContainerItemProxy */;
+		};
+		974C8CB92A8400B000916F10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 974C8C9B2A8400AE00916F10 /* Majestic */;
+			targetProxy = 974C8CB82A8400B000916F10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		974C8CA52A8400B000916F10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				974C8CA62A8400B000916F10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		974C8CBF2A8400B000916F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		974C8CC02A8400B000916F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		974C8CC22A8400B000916F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Majestic/Majestic.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QPZTLEJ7L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamerocketstudio.Majestic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		974C8CC32A8400B000916F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Majestic/Majestic.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QPZTLEJ7L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamerocketstudio.Majestic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		974C8CC52A8400B000916F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QPZTLEJ7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamerocketstudio.MajesticTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Majestic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Majestic";
+			};
+			name = Debug;
+		};
+		974C8CC62A8400B000916F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QPZTLEJ7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamerocketstudio.MajesticTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Majestic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Majestic";
+			};
+			name = Release;
+		};
+		974C8CC82A8400B000916F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QPZTLEJ7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamerocketstudio.MajesticUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Majestic;
+			};
+			name = Debug;
+		};
+		974C8CC92A8400B000916F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QPZTLEJ7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamerocketstudio.MajesticUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Majestic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		974C8C972A8400AE00916F10 /* Build configuration list for PBXProject "Majestic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				974C8CBF2A8400B000916F10 /* Debug */,
+				974C8CC02A8400B000916F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		974C8CC12A8400B000916F10 /* Build configuration list for PBXNativeTarget "Majestic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				974C8CC22A8400B000916F10 /* Debug */,
+				974C8CC32A8400B000916F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		974C8CC42A8400B000916F10 /* Build configuration list for PBXNativeTarget "MajesticTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				974C8CC52A8400B000916F10 /* Debug */,
+				974C8CC62A8400B000916F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		974C8CC72A8400B000916F10 /* Build configuration list for PBXNativeTarget "MajesticUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				974C8CC82A8400B000916F10 /* Debug */,
+				974C8CC92A8400B000916F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 974C8C942A8400AE00916F10 /* Project object */;
+}
